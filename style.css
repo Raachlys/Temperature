@@ -1,0 +1,77 @@
+/* Загальні стилі для всього документа */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Контейнер, в якому буде вся форма */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Зроблено більш прямокутним */
+    max-width: 90%; /* Адаптивна ширина */
+    height: auto; /* Для автоматичного налаштування висоти */
+}
+
+/* Заголовок */
+h1 {
+    font-size: 2.5rem; /* Збільшений розмір заголовка */
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Стилі для форми та елементів */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Простір між елементами */
+}
+
+/* Поля введення та вибору */
+input[type="number"], select {
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Кнопка */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%; /* Розтягує кнопку на всю ширину */
+}
+
+button:hover {
+    background-color: #0056b3; /* Змінюється колір кнопки при наведенні */
+}
+
+/* Стилі для результату */
+.result {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
